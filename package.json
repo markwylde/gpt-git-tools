@@ -1,0 +1,25 @@
+{
+  "name": "gpt-git",
+  "version": "1.0.0",
+  "type": "module",
+  "bin": {
+    "gpt-all": "bin/gpt-all.js",
+    "gpt-commit": "bin/gpt-commit.js",
+    "gpt-review": "bin/gpt-review.js"
+  },
+  "description": "Get GPT to generate commit messages and code reviews for you.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "email": "me@markwylde.com",
+    "name": "Mark Wylde",
+    "url": "https://github.com/markwylde"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "openai": "^4.0.0-beta.4"
+  }
+}
