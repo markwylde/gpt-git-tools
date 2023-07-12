@@ -1,5 +1,5 @@
 {
-  "name": "gpt-git",
+  "name": "gpt-git-tools",
   "version": "1.0.0",
   "type": "module",
   "bin": {
